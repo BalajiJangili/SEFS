@@ -1,0 +1,49 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Coverage/build artifacts
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs and local env
+*.log
+logs/
+.env
+.env.*
+
+# SEFS runtime/generated data
+sefs_test/
+**/.sefs/
+*.sefs_tmp/
